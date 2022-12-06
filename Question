@@ -1,0 +1,20 @@
+11. Write Java code as instructed. [Iterators]
+• Define two interfaces as follows:
+– Interface Printable with method void print().
+– Interface Iterable with methods boolean has next() and Printable get next().
+• Define a class ComplexNum that implements Printable and has the following members.
+– Instance variables r and i.
+– Constructor to initialize the instance variables.
+– Override print() method to display the ComplexNum in a formatted way as
+shown in the test cases.
+• Define a class ComplexList with the following members.
+– Instance variable list which is an array of ComplexNum type.
+– Appropriate constructor to initialize the instance variables.
+– A private class ComplexIterator that implements Iterable and has the following members.
+∗ Instance variable indx.
+∗ Appropriate constructor to initialize the instance variable.
+∗ Overrides the methods of Iterable.
+• Define a class Test that has the main method. The main method takes the number of ComplexNum objects as first input, followed by values for each ComplexNum.
+Then, it creates an object of ComplexList with an array that stores all the input
+ComplexNum objects. Finally, it uses the Iterator to print the ComplexNum objects
+in the proper format as shown in the test cases.
